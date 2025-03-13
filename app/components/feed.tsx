@@ -3,7 +3,7 @@ import React from "react"
 import { Post } from "@/components/post"
 
 export default function Feed({initialPosts}) {
-    const [posts, setPosts] = React.useState<any[]>([initialPosts]);
+    const [posts, setPosts] = React.useState<any[]>(initialPosts);
 
     return (
         <div className="flex flex-col gap-3">
